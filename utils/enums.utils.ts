@@ -1,0 +1,21 @@
+enum UserRole {
+  ADMIN = "ADMIN",
+  USER = "USER",
+}
+
+enum Difficulty {
+  EASY = "EASY",
+  MEDIUM = "MEDIUM",
+  HARD = "HARD",
+}
+
+enum Status {
+  ACCEPTED = "ACCEPTED",
+  WRONG_ANSWER = "WRONG_ANSWER",
+  TIME_LIMIT_EXCEEDED = "TIME_LIMIT_EXCEEDED",
+  MEMORY_LIMIT_EXCEEDED = "MEMORY_LIMIT_EXCEEDED",
+  RUNTIME_ERROR = "RUNTIME_ERROR",
+  COMPILE_ERROR = "COMPILE_ERROR",
+}
+
+export { UserRole, Difficulty, Status };
